@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "public": "dist",
+    "site": "sayraa",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/sitemap.xml",
+        "destination": "/sitemap.xml"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

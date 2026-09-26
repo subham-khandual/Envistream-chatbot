@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-marquee: marquee var(--duration) linear infinite;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+
+  @keyframes marquee-vertical {
+    from {
+      transform: translateY(0);
+    }
+
+    to {
+      transform: translateY(calc(-100% - var(--gap)));
+    }
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

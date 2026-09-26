@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="canonical" href="https://www.envistream.org" />
+  <meta name="google-site-verification" content="fULAZoWBL-SWni01nhW5QHS1LaekjxGITUZcg9lrvJc" />
+
+  <!-- Preload Critical LCP Assets -->
+  <link rel="preload" href="/suu2.webp" as="image" type="image/webp" />
+
+  <!-- Resource Hints for Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Galada&family=Inter:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- SEO Meta Tags -->
+
+  <meta name="description"
+    content="Sayraa - AI guide for Envistream EduSkill. Learn about IT training, internships, courses, and placements in Odia, Hindi & English. Free voice-enabled education chatbot." />
+  <meta name="subject" content="AI Education Chatbot" />
+  <meta name="url" content="https://www.envistream.org" />
+  <meta name="identifier-URL" content="https://www.envistream.org" />
+  <meta name="category" content="Education, AI Chatbot" />
+  <meta name="site_name" content="Envistream EduSkill" />
+  <meta name="rating" content="safe for kids" />
+  <meta name="keywords"
+    content="Envistream EduSkill, education chatbot, IT training, internship, courses, AI chatbot, voice assistant, multilingual chatbot, Sayraa, career guidance, Odia Hindi English chatbot" />
+  <meta name="author" content="Sayraa Team" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="bingbot" content="index, follow" />
+  <meta name="apple-mobile-web-app-title" content="Sayraa" />
+  <meta name="application-name" content="Sayraa" />
+  <meta name="msapplication-TileColor" content="#000000" />
+  <meta name="msapplication-TileImage" content="/suu-icon-192.png" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- PWA related meta -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="apple-touch-icon" href="/suu-icon-192.png" />
+  <link rel="apple-touch-startup-image" href="/suu-icon-192.png" />
+
+  <!-- Social Sharing (OG) Tags -->
+<meta property="og:title" content="Sayraa | Envistream EduSkill AI Chatbot" />
+    <meta property="og:description" content="Multilingual voice-enabled AI chatbot for courses, internships, and career guidance at Envistream EduSkill. Chat in Odia, Hindi & English." />
+  <meta property="og:image" content="https://www.envistream.org/suu-icon-512.png" />
+  <meta property="og:url" content="https://www.envistream.org" />
+  <meta property="og:site_name" content="Envistream EduSkill" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="hi_IN" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sayraa | Envistream EduSkill AI Chatbot" />
+  <meta name="twitter:description" content="Multilingual voice-enabled AI chatbot for courses, internships, and career guidance at Envistream EduSkill." />
+  <meta name="twitter:image" content="https://www.envistream.org/suu-icon-512.png" />
+  <meta name="twitter:creator" content="@envistream" />
+  <meta name="twitter:site" content="@envistream" />
+  <meta name="twitter:domain" content="envistream.org" />
+
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/suu-icon-192.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/suu-icon-192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/suu-icon-512.png" />
+  <link rel="mask-icon" href="/suu-icon-192.png" color="#5bbad5" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <meta name="apple-mobile-web-app-title" content="Sayraa" />
+  <meta name="application-name" content="Sayraa" />
+  <meta name="msapplication-TileColor" content="#000000" />
+  <meta name="msapplication-TileImage" content="/suu-icon-192.png" />
+
+  <title>Sayraa - Envistream EduSkill AI Chatbot | Courses, Internships & Careers</title>
+
+  <!-- Structured Data (JSON-LD) for Rich Google Results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Sayraa - Envistream EduSkill AI Chatbot",
+    "url": "https://www.envistream.org",
+    "description": "Multilingual, voice-enabled AI chatbot providing course, training, internship, and career guidance for Envistream EduSkill. Odia, Hindi & English support.",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "INR"
+    },
+    "creator": {
+      "@type": "Organization",
+      "name": "Envistream EduSkill"
+    },
+    "inLanguage": ["en", "hi", "or"]
+  }
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/index.jsx"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker
+          .register("/sw.js")
+          .then((registration) => {
+            registration.update().catch(() => {});
+          })
+          .catch(console.error);
+      });
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://sayraa-health-care-ai-assistant.vercel.app/sitemap.xml

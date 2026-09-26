@@ -1,0 +1,141 @@
+/* Footer Styling */
+.footer {
+  background: rgba(13, 12, 41, 0.7);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-text {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footer-about {
+  font-size: 16px;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+.footer-about p {
+  margin: 10px 0;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+  background: linear-gradient(135deg, #AF40FF, #5B42F3);
+  transform: translateY(-5px);
+  border-color: transparent;
+  box-shadow: 0 10px 20px rgba(91, 66, 243, 0.3);
+}
+
+.footer-social i {
+  margin-right: 8px;
+}
+
+.footer-smiley {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #ffa500;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer-about {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+
+  .footer-about p {
+    margin: 8px 0;
+  }
+
+  .footer-social a {
+    margin: 8px 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    display: inline-flex;
+    width: calc(50% - 16px);
+    justify-content: center;
+  }
+
+  .footer-smiley {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 0;
+  }
+
+  .footer-about {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  .footer-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 10px;
+  }
+
+  .footer-social a {
+    width: calc(50% - 8px);
+    margin: 0;
+    padding: 10px 8px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .footer-smiley {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .footer-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-social a {
+    width: 100%;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,53 @@
+.App {
+  background: rgb(35, 26, 207);
+  background: linear-gradient(90deg, rgba(9, 8, 32, 1) 0%, rgba(53, 51, 205, 1) 35%, rgba(71, 70, 92, 1) 100%);
+}
+
+.Navigation {
+  height: 10%;
+  background: rgb(35, 27, 184);
+  background: linear-gradient(90deg, rgba(9, 8, 32, 1) 0%, rgba(53, 51, 205, 1) 35%, rgba(71, 70, 92, 1) 100%);
+  padding: 2% 0 0 5%;
+  color: wheat;
+}
+
+.header {
+  text-align: center;
+  margin-top: 5px;
+  font-family: 'Lora', serif;
+  color: white;
+}
+
+.highlight {
+  color: #ff69b4;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+}
+
+.sayraaText {
+  font-family: 'Pacifico', cursive;
+  color: #FFA500;
+}
+
+.sayraaContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.sayraa {
+  width: 300px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .sayraa {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sayraa {
+    width: 150px;
+  }
+}
